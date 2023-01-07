@@ -11,8 +11,6 @@ canvaMint is decentralized application (Daap) where you can simply create your o
 
 ## Live Demo
 
-https://www.youtube.com/watch?v=mkUqcfX6CPs&feature=emb_imp_woyt
-
 ## Deployment
 
 Execute the steps below sequentially.
