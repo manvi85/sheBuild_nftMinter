@@ -9,7 +9,6 @@ canvaMint is decentralized application (Daap) where you can simply create your o
 - Smart Contract: Solidity
 - Front-end: React Truffle Box + web3.js + Boostrap + styled-components
 
-## Live Demo
 
 ## Deployment
 
