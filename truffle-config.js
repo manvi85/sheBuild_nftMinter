@@ -1,6 +1,7 @@
 const path = require("path");
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 const mnemonic = "garden inherit fun surface lobster answer make hat nerve dream beauty rebuild";
+const infura_key = "f0178077c3874af28a65a5f36f296f2f"
 // test wallet not real one
 module.exports = {
   networks: {
@@ -13,7 +14,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           mnemonic,
-          `https://ropsten.infura.io/v3/YOUR-PROJECT-ID`
+          `https://ropsten.infura.io/v3/infura_key`
         ),
       network_id: 3, // Ropsten's id
       gas: 5500000, // Ropsten has a lower block limit than mainnet
@@ -25,7 +26,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           mnemonic,
-          `https://rinkeby.infura.io/v3/YOUR-PROJECT-ID`
+          `https://rinkeby.infura.io/v3/infura_key`
         ),
       network_id: 4,
       gas: 5500000,
@@ -36,7 +37,7 @@ module.exports = {
         provider: () =>
           new HDWalletProvider(
             mnemonic,
-            `https://polygon-mumbai.infura.io/v3/YOUR-PROJECT-ID`
+            `https://polygon-mumbai.infura.io/v3/infura_key`
           ),
         network_id: 80001,
         gas: 5500000,
@@ -48,7 +49,7 @@ module.exports = {
         provider: () =>
           new HDWalletProvider(
             mnemonic,
-            `https://polygon-mainnet.infura.io/v3/YOUR-PROJECT-ID`
+            `https://polygon-mainnet.infura.io/v3/infura_key`
           ),
         network_id: 137,
         gas: 5500000,
